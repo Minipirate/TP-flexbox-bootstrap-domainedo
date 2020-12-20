@@ -1,0 +1,14 @@
+.social-ddo {
+    li {
+        margin-right: 15px;
+        /*before correspond à l'icône*/
+        i:before {
+            font-size: 1.2 em;
+            cursor: pointer;
+        }
+        /*changement de couleur au survol de l'icône*/
+        i:hover:before {
+            color: map-get($theme-colors, "primary");
+        }
+    }
+}

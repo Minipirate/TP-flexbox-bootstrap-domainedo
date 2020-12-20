@@ -1,0 +1,151 @@
+/*icon user-check ->green*/
+.fa-user-check {
+    color: #23bc44;
+}
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+li {
+    margin : 0 5px;
+    background-color: #6c757d;
+    padding: 10px 20px;
+    height: 20px;
+    color: white;
+    border-radius: 8px;
+    flex-direction: row;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+#btn-add{
+	padding: auto;
+	background-color: #23bc44;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#selected-item{
+	background-color: #ecad18;
+	color: grey;
+}
+
+#selected-icon{
+	color:black;
+}
+
+/*Titre h1 head*/
+h1{
+    text-align: center;
+    background-color: #6c757d;
+    margin:0;
+    font-size: 2em;
+    padding: 10px;
+    color: white;
+}
+
+#shifted-letter{
+	display: inline-block;
+	margin-top: 5px;
+}
+
+main{
+	width: 95%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+	margin-left: 50px;
+	margin-bottom: -40px;
+}
+
+main > section {
+    flex-basis : 21%;
+    margin:10px;
+}
+
+nav {
+    align-items: stretch;
+    border: 10px;
+}
+
+
+article {
+    padding: 15px;
+    border-radius: 8px;
+    color : white;
+    background-color: #6c757d;
+    margin-bottom: 20px;
+    min-width: 300px;
+}
+
+/*Bouton + header*/
+h5 > button {
+    background-color: #23bc44;
+    border: 10px solid #23bc44;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/*Boutons titres à gauche*/
+h2 > button {
+    background-color: #23bc44;
+    border: 10px solid #23bc44;
+    color: white;
+    border-radius: 8px;
+    margin:10%;
+    cursor: pointer;
+}
+
+article > div {
+	margin-top: 20px;
+}
+
+/*Boutons jaunes*/
+article > div > button {
+    background-color: #ffc61e;
+    border-radius: 8px;
+    width: 150px;
+    height: 3em;
+    align-content: flex-end;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    margin-right: 45px;
+    cursor: pointer;
+}
+    
+/*icones flèches*/
+article > i {
+    cursor: pointer;    
+}
+
+footer {
+        text-align: center;
+        background-color: #6c757d;
+        color: white;
+        margin: 20 0px;
+        padding: 20px;
+    }
+
+footer a {
+    color: white;
+    
+}

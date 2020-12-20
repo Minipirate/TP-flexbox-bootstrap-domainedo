@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head> 
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- Icones fontawesome -->
+         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        
+        <title>Exo memo bootstrap</title>
+    </head>
+
+    <body>
+        <header>
+            <h1 class="bg-secondary p-1 mb-10 text-light">
+                    <section class="d-flex justify-content-center">
+                        <div class="d-flex mr-2 mt-2"><i class="fab fa-snapchat-ghost text-light fa-sm"></i></div>
+                        <div class="d-flex">e</div>
+                        <div class="d-flex text-uppercase mt-2">m</div>
+                        <div class="d-flex">o</div>
+                        <div class="d-flex mt-2"><i class="fas fa-user-check text-success ml-5 fa-xs"></i></div>
+                    </section>
+            </h1>   
+            <section class="btn-toolbar justify-content-center" role="toolbar">
+                <button type="button" class="btn btn-success m-2" tile="ajout">+</button>
+                <button type="button" class="btn btn-secondary btn-sm m-2">bootstrap <i class="fas fa-cog fa-lg m-2" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-warning btn-sm m-2"><span class="text-secondary">css > </span><i class="fas fa-cog fa-lg m-2 " aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-secondary btn-sm m-2">html <i class="fas fa-cog fa-lg m-2" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-secondary btn-sm m-2">javascript <i class="fas fa-cog fa-lg m-2" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-secondary btn-sm m-2">linux <i class="fas fa-cog fa-lg m-2" aria-hidden="true"></i></button>
+                <button type="button" class="btn btn-secondary btn-sm m-2">visual studio code <i class="fas fa-cog fa-lg m-2" aria-hidden="true"></i></button>
+            </section>
+        </header>
+
+        <main class="container-fluid">
+            <section class="row m-4">
+                <h2>javascript</h2>
+            </section>
+            <div class="row m-2">
+             <!--Colonne A apprendre-->
+                <section class="col-3">
+                    <h3 class="h4"><button type="button" class="btn btn-success ml-1 mr-3" tile="ajout">+</button>À apprendre</h3>
+                    <div class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Une variable déclarée avec le mot clé "var" est xxx scope ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </div>
+                </section>
+
+                <!--Colonne Je sais un peu-->
+                <section class="col-3">
+                    <h3 class="h4"><button type="button" class="btn btn-success ml-1 mr-3" tile="ajout">+</button>Je sais un peu</h3>
+                    <div class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Syntaxe (arrow function) pour créer un nouveau tableau "li_fruits" qui met chaque chaîne de caractères du tableau "fruits" entre des "li"</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </div>
+                    <section class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>error</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                </section>
+                <!--Colonne Je sais bien-->
+                <section class="col-3">
+                    <h3 class="h4"><button type="button" class="btn btn-success ml-1 mr-3" tile="ajout">+</button>Je sais bien</h3>
+                    <div class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Une variable déclarée avec les mots clés "let" ou "const" est xxx scope ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </div>
+                    <section class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Le contexte d'exécution parent à tous les autres contextes s'appelle ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                    <section class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Qu'est ce qu'un prototype ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                    <div class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Syntaxe pour créer un constructeur de Cercle qui attend en paramètre "rayon" et "nom" ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </div>
+                    <section class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Comment ajouter la méthode aire() au prototype du constructeur Cercle ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                    <section class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Syntaxe pour afficher dans la console la taille du tableau "fruits" ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                    <section class="card bg-secondary text-light rounded mt-3 mb-5">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>Syntaxe pour ajouter "Cerise" en fin de tableau "fruits" ?</p>
+                                    <button class="btn btn-warning btn-sm text-dark">proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                </section>
+                <!--Colonne Je sais parfaitement-->
+                <section class="col-3">
+                    <h3 class="h4"><button type="button" class="btn btn-success ml-1 mr-3" tile="ajout">+</button>Je sais parfaitement</h3>
+                    <div class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>"Quels sont les éléments du code js qui sont à l'origine de la création d'un contexte enfant ?"</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </div>
+                    <section class="card bg-secondary text-light rounded mt-3">
+                        <div class="card-body container">
+                            <div class="row">
+                                <div class="col-1"><i class="fal fa-chevron-circle-left fa-lg text-white"></i></div>
+                                <div class="col">
+                                    <p>xxx</p>
+                                    <button class="btn btn-warning btn-sm text-dark">Proposer une réponse</button>
+                                    <i class="fas fa-cog fa-lg ml-4" aria-hidden="true"></i>
+                                </div>
+                                <div class="col-1 mr-1"><i class="fal fa-chevron-circle-right fa-lg text-white"></i></div>
+                            </div>     
+                        </div>
+                    </section>
+                </section>
+            </div>
+        </main>
+           
+        <footer class="fixed-bottom bg-secondary p-20 mt-3">
+            <p class="text-center m-2">
+                <a href="#" class="text-light">Les cartes des autres</a>             
+            </p>
+        </footer>
+    </body>
+            
+</html> 
